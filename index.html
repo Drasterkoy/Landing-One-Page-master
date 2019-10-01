@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>landing page</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<img src="img/new2.png" height="100" width="100">
+		<h1><a href="http://smkmuh1-yog.sch.id/">SMK MUHI</h1></a>
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>PPDB</h2>
+				<p>Pendaftaran siswa baru SMK MUHI 2019/2020</p>
+				<div class="btn-container">
+					<a href="#"><button id="toggle">Read More</button></a>
+					</div>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>Pilihan Jurusan</h2>
+				<p>Jurusan di SMK muhi sangat bervariasi dengan berbagai macam jurusan</p>
+				<div class="btn-container">
+					<a href="#"><button id="toggle">Read More</button></a>
+					</div>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				<h2>TeFa</h2>
+				<p>SMK Muhi membuka sebuah kegiatan bernama TeFa yaitu menghasilkan produk dan akan di jual</p>
+				<div class="btn-container">
+					<a href="#"><button id="toggle">Read More</button></a>
+					</div>
+			</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
